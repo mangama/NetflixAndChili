@@ -1,0 +1,137 @@
+/* combined classes */
+.plotClass, .recipeIngredients {
+  font-size:18px;
+  margin-top: 20px;
+  position:left; 
+  font-family: 'Nanum Gothic', sans-serif;
+ }
+
+ #movie-image, #recipe-image {
+  margin-bottom: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+.movieTitleText, .recipeTitle {
+  color: rgb(109, 170, 35);
+  font-size: 22px;
+  font-family: 'Nanum Gothic', sans-serif;
+  text-align: center;
+ 
+ }
+
+body {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  cursor: url("../images/fork-xxl.png"), default !important;
+ }
+ 
+ /* main tag is breaking the styling not sure how or why?? */
+ main {
+  flex: 1 0 auto;
+ }
+ 
+ h1{
+  color: rgb(255, 0, 0);
+  text-align:center;
+  font-size: 56px;
+  font-weight: bold;
+  font-feature-settings: "aalt";
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+ }
+ 
+ #cardTitle{
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  margin-left:30px;
+  margin-right:30px;
+  margin-top:30px;
+  font-style: inherit;
+  color: darkslategray; 
+  border-bottom: 1px solid darkslategray;
+  text-align: left;
+  
+ 
+ }
+
+ #cuteSaying  {
+  text-align:center;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+ }
+
+
+ .container  {
+  background-color: rgb(228, 228, 228);
+  margin-top: 20px;
+  margin-bottom:  100px;
+  max-height: 2200px;
+  max-width:  1200px;
+  border-radius:  .25em;
+ }
+ 
+ .row {
+  margin-top: 50px;
+  border: 10px color grey;
+ }
+ 
+ #search {
+  width:  500px;
+  height: 50px;
+  background: white;
+  border: 5px color grey;
+  margin-top: 7.5px;
+  text-align:  center;
+  border-radius:.25em;
+  }
+ 
+ .input-field  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+ }
+ 
+ #recipeButton {
+  background-color: rgb(109, 170, 35);
+  object-position: center;
+  margin-top:20PX;
+  width: 175px;
+  border-radius:  .25em;
+  color: white;
+  font-family: Georgia,serif;
+  font-weight: bold;
+ }
+
+ header  {
+  background: url("../images/headerPic.jpg");
+   background-size: cover;
+  margin-top: -42px;
+  border-bottom: 2px solid #cccccc;
+ }
+ 
+ .footer {
+  text-align: center;
+  font-weight: bold;
+  background-color: rgb(109, 170, 35);
+  }
+
+ img {
+  margin-top: 10px;
+ }
+  
+ .card {
+  margin-top: 25px;
+  padding-top: 10px;
+ }
+
+ #OMDb-font {
+   color: white;
+ }
+ 
+ 
+

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Netflix and Chili</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!-- linking style sheet -->
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+</head>
+
+<body>
+    <main>
+  <header>
+
+    <h1>Netflix and Chili</h1>
+    <p id = "cuteSaying">Making Dinner and a Movie that much easier.</p>
+    
+    <div class="input-field" >
+      <input id="search" type="search" onfocus="this.value=''" placeholder="Search Movies (Ex: Saw, The Little Mermaid, 13 Going On 30)" required>
+      <a class="btn-small" id="recipeButton"><b>Get Recipe</b></a>
+
+    <!-- </nav> -->
+  </header>
+
+  <div class="container">
+
+    <div class="row">
+      <!-- Recipe card-->
+      <div class="col s12 m12 l6">
+        <div class="card">
+          <h3 id ="cardTitle">Recipe</h3>
+          <div class="card-image">
+            <span class="card-title"></span>
+          </div>
+          <div class="card-content" id = "recipe-card">
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Movie card -->
+      <div class="col s12 m12 l6"> <!-- Mobile Devices 
+        <= 600px -->
+        <div class="card">
+          <h3 id ="cardTitle">Movie</h3>
+          <div class="card-image">
+            <!-- We will capture an image of the movie description-->
+            <span class="card-title"></span>
+          </div>
+          <div class="card-content" id = "movie-card">
+            <!-- We will capture the movie description-->
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+  <footer class="footer fixed-bottom">
+    <div id="OMDB-badge" data-color="white">
+    <a id="OMDb-font" href="http://omdbapi.com">OMDb</a>
+      <!-- <span>Copyright &copy;</span> -->
+    </div>
+    <div id="edamam-badge" data-color="white">
+      <span>Copyright &copy;</span>
+    </div>
+  </footer>
+  <script src="https://developer.edamam.com/attribution/badge.js"></script>
+  <script src="Javascript/app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+
+</html>
